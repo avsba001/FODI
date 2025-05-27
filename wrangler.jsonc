@@ -29,7 +29,7 @@
     "PROTECTED": {
       // Path to show, leave blank if show all files, otherwise fill in the format '/media/music'
       // 展示路径，如全盘展示请留空，否则按 '/媒体/音乐' 的格式填写
-      "EXPOSE_PATH": "/pan",
+      "EXPOSE_PATH": "",
       // Encrypt the directory containing the filename, subdirectories are not encrypted, password is the content of the file
       // 目录下有该文件则加密目录，子目录不加密，密码是文件内容
       "PASSWD_FILENAME": ".password",
