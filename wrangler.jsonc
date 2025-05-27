@@ -6,7 +6,7 @@
   "kv_namespaces": [
     {
       "binding": "FODI_CACHE",
-      "id": "" // <~ https://dash.cloudflare.com/?to=/:account/workers/kv/namespaces
+      "id": "581194638893434fb7f42754d13b3f67" // <~ https://dash.cloudflare.com/?to=/:account/workers/kv/namespaces
     }
   ],
   // !!! Notice|注意 !!!
