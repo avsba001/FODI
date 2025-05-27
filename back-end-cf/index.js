@@ -92,8 +92,7 @@ async function handleRequest(request, env) {
     // Download a file
     GET: () => {
       const fileName = file.split('/').pop();
-      if (!fileName && !isDirectoryRequest) {return new Response('Bad Request: Missing file name', { status: 400 });
-      ｝
+      if (!fileName) return new Response('Bad Request', { status: 400 });
       if (fileName.toLowerCase() === PROTECTED.PASSWD_FILENAME.toLowerCase()) {
         return new Response('Access Denied', { status: 403 });
       }
